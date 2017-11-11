@@ -1,0 +1,32 @@
+{
+    "name": "field_statistics",
+    "description": "Summarize field values",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "BioRAFT",
+            "role": "devel@bioraft.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:raftdev/raft-coder"
+        }
+    ],
+    "require": {
+        "drupal/core": "~8.)"
+    },
+    "require-dev": {
+        "drupal/static-inspections": "1.x-dev"
+    },
+    "conflict": {
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

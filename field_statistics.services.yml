@@ -1,0 +1,4 @@
+services:
+  field_statistics.query_handler:
+    class:
+    arguments: ['@database']
